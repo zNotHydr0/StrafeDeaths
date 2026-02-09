@@ -1,30 +1,16 @@
-name: Deaths
-version: 1.0
-main: strafeland.club.deaths.Main
-api-version: 1.8
+name: StrafeDeaths
+version: 2.0.0
+main: strafeland.club.strafedeaths.Main
+api-version: 1.13
 authors: [zNotHydr0]
-description: Esta es la primera version para el plugin de muertes. Creado por [zNotHydr0]
+description: StrafeDeaths 2.0. Created by [zNotHydr0]
 website: www.strafeland.club
 commands:
-  deaths:
-    usage: /<command> help
-    aliases: [death]
-  thunder:
-    usage: /<command>
-    aliases: [on, off]
-  thunders:
-    usage: /<command>
-    aliases: [ on, off ]
-  announce:
-    usage: /<command>
-    aliases: [on, off]
-  menu:
-    usage: /<command>
-  place:
-    usage: /<command>
-    aliases: [ on, off ]
-  break:
-    usage: /<command>
-    aliases: [ on, off ]
-  version:
-    usage: /<command>
+  death:
+    description: Main command for StrafeDeaths
+    aliases: [deaths]
+    permission: strafedeaths.admin
+permissions:
+  strafedeaths.admin:
+    description: Admin permission for StrafeDeaths
+    default: op

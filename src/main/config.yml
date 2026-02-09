@@ -1,5 +1,0 @@
-Config:
-    announce: true
-    announce-text: "(ChatColor.DARK_RED + "§c§lDEATHS §8| " + player.getDisplayName() + ChatColor.RED + " has killed by " + ChatColor.GREEN + killer.getDisplayName())"
-
-

@@ -1,0 +1,4 @@
+settings:
+    thunder-enabled: false
+    disabled-worlds:
+        - world_example_disabled

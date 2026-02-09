@@ -1,0 +1,25 @@
+chat-messages:
+# Config Messages
+  prefix: "&8[&cStrafe&fDeaths&8] "
+  no-permission: "&cYou do not have permission to use this command."
+  reload: "&aConfiguration and messages reloaded."
+  thunder-enabled: "&7Thunder effect on death has been &aenabled&7."
+  thunder-disabled: "&7Thunder effect on death has been &cdisabled&7."
+  notifications-enabled-world: "&7Death notifications for world &e%world% &7have been &aenabled&7."
+  notifications-disabled-world: "&7Death notifications for world &e%world% &7have been &cdisabled&7."
+  world-not-found: "&cThe world &e%world% &cdoes not exist."
+
+# Death Messages
+  death-general: "&c%victim% &7died."
+  death-player: "&c%victim% &7was slain by &c%killer%&7."
+  death-void-fall: "&c%victim% &7fell to their death."
+  death-mob: "&c%victim% &7was killed by a &e%mob%&7."
+
+# Help
+  help:
+    - "&8&m--------------------------------"
+    - "&c&lStrafeDeaths Help"
+    - "&e/death notifications [world] &7- Toggle death notifications."
+    - "&e/death thunder &7- Toggle thunder effect on death."
+    - "&e/death reload &7- Reload config."
+    - "&8&m--------------------------------"
