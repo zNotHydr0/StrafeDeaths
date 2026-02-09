@@ -68,6 +68,7 @@ public class DeathCommand implements CommandExecutor, TabCompleter {
         return true;
     }
 
+    // Toggles death notifications for a specific world
     private void handleNotifications(CommandSender sender, String[] args) {
         World world;
         if (args.length > 1) {
@@ -108,6 +109,7 @@ public class DeathCommand implements CommandExecutor, TabCompleter {
         }
     }
 
+    // Handles Tab Completion for commands
     @Override
     public List<String> onTabComplete(CommandSender sender, Command command, String alias, String[] args) {
         if (!sender.hasPermission("strafedeaths.admin")) return Collections.emptyList();

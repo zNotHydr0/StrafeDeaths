@@ -1,4 +1,18 @@
+# StrafeDeaths 2.0
+#
+# ==============================================================================
+# StrafeDeaths Configuration
+# ==============================================================================
+#
+# Created by zNotHydr0
+# Github: https://github.com/zNotHydr0
+
 settings:
+#   If set to true, a lightning strike will strike at the death location.
+#   This is purely visual/auditory and will not destroy items or damage entities.
     thunder-enabled: false
+
+#   List the names of the worlds where you want to disable death notifications.
+#   In these worlds, death messages will be completely hidden from chat.
     disabled-worlds:
         - world_example_disabled

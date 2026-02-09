@@ -1,3 +1,13 @@
+# ==============================================================================
+# StrafeDeaths Messages
+# ==============================================================================
+#
+#   Placeholders:
+#   %victim% - The name of the player who died.
+#   %killer% - The name of the player who killed the victim.
+#   %mob%    - The name of the entity/mob that killed the victim.
+#   %world%  - The name of the world (used in notification commands).
+
 chat-messages:
 # Config Messages
   prefix: "&8[&cStrafe&fDeaths&8] "

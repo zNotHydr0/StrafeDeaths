@@ -19,6 +19,12 @@ public class DeathListener implements Listener {
         this.plugin = plugin;
     }
 
+    /**
+     * Main handler for player deaths.
+     * 1. Handles Thunder effects.
+     * 2. Checks for Disabled Worlds.
+     * 3. Determines the correct death message (Player > Fall/Void > Mob > General).
+     */
     @EventHandler
     public void onPlayerDeath(PlayerDeathEvent event) {
         Player victim = event.getEntity();
